@@ -50,5 +50,13 @@ public class Staff
         System.out.println(this.nameSurname +"enter to canteen !!");
     }
 
+    public static void enterStaff(Staff[] staff)
+    {
+        for (Staff s: staff)
+        {
+            s.enter();
+        }
+    }
+
 
 }
