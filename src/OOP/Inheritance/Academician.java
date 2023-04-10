@@ -1,6 +1,6 @@
 package OOP.Inheritance;
 
-public class Academician extends Staff{
+public abstract class Academician extends Staff{
 
     private String department;
     private String degree;
@@ -25,4 +25,6 @@ public class Academician extends Staff{
     public void setDegree(String degree) {
         this.degree = degree;
     }
+
+    public abstract void enterCourse(String time);
 }

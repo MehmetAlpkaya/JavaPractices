@@ -17,4 +17,6 @@ public class Assistant extends Academician{
         super(nameSurname, mbPhone, ePosta, department, degree);
         this.oficeTime = oficeTime;
     }
+    public void enterCourse(String s)
+    {}
 }

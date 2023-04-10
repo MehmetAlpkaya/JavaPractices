@@ -7,4 +7,8 @@ public class Prelector extends Academician{
         super(nameSurname, mbPhone, ePosta, department, degree);
         this.no = no;
     }
+    public void enterCourse(String time)
+    {
+        System.out.println(this.getNameSurname()+" enter the lacture");
+    }
 }
