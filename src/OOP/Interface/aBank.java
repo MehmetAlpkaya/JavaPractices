@@ -21,21 +21,13 @@ public class aBank implements IBank
         return true;
     }
     @Override
-    public boolean peyment(double price , String cardNumber,String date, String cvc )
+    public boolean payment(double price , String cardNumber,String date, String cvc )
     {
         System.out.println("Awaiting a reply from the bank");
         System.out.println("The transaction was successful");
         return true;
     }
-    public void connect()
-    {
-        System.out.println(this.bankName +" Connected!!");
-    }
 
-    public void payment(double price,String cardNumber, String expiryDate, String cvc )
-    {
-        System.out.println("The transaction was successful");
-    }
 
     public String getBankName() {
         return bankName;

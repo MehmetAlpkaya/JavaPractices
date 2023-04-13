@@ -38,11 +38,16 @@ public class bBank implements IBank
 
     @Override
     public boolean connect(String ipAddres) {
+        System.out.println("User ip :"+ ipAddres);
+        System.out.println("Host ip :"+ this.hostIpAddres);
+        System.out.println(this.bankName+" connected!");
         return false;
     }
 
     @Override
-    public boolean peyment(double price, String cardNumber, String date, String cvc) {
+    public boolean payment(double price, String cardNumber, String date, String cvc) {
+        System.out.println("Awaiting a reply from the bank");
+        System.out.println("The transaction was successful");
         return false;
     }
 }

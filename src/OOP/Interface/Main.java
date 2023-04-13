@@ -38,6 +38,11 @@ public class Main
             aPos.connect("127.1.1.1");
             aPos.payment(price,cardNumber,date,cvc);
             break;
+        case 2:
+            bBank bPos=new bBank("Bank A","123456789","123456" );
+            bPos.connect("127.1.1.1");
+            bPos.payment(price,cardNumber,date,cvc);
+            break;
         default:
         System.out.println("Enter a valid bank");
         }
